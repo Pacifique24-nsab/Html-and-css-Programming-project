@@ -16,7 +16,7 @@ y = r * np.sin(theta)
 plt.figure(figsize=(6,6))
 plt.plot(x, y, '.', color='white')
 
-# Set the title and labels
+# Set the title and labels of the graphs
 plt.title('Spiral Galaxy')
 plt.xlabel('x')
 plt.ylabel('y')
