@@ -8,7 +8,7 @@ num_points, num_spirals = 1000, 2
 theta = np.linspace(0, 4*np.pi*num_spirals, num_points)
 r = theta**2 
 
-# Convert to cartesian coordinates
+# Convert to cartesian coordinatestl 
 x = r * np.cos(theta)
 y = r * np.sin(theta)
 
