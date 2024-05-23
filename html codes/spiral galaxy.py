@@ -12,7 +12,7 @@ r = theta**2
 x = r * np.cos(theta)
 y = r * np.sin(theta)
 
-# Create the plot
+# Create the plot of the graphs 
 plt.figure(figsize=(6,6))
 plt.plot(x, y, '.', color='white')
 
@@ -25,5 +25,5 @@ plt.ylabel('y')
 # Set the background color to black
 plt.gca().set_facecolor('black')
 
-# Show the plot
+# Show the plot of the results 
 plt.show()
