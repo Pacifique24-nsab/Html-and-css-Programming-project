@@ -16,9 +16,10 @@ y = r * np.sin(theta)
 plt.figure(figsize=(6,6))
 plt.plot(x, y, '.', color='white')
 
-# Set the title and labels of the graphs
-plt.title('Spiral Galaxy')
-plt.xlabel('x')
+# Set the title and labels of the graphs so that the user will be able to read the coordinates
+easily 
+plt.titlein('Spiral Galaxy')
+plt.xlabel('x') 
 plt.ylabel('y')
 
 # Set the background color to black
